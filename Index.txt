@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>DTS</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fullcontainer banner" id="homeSection">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="DTS Logo"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#homeSection">Home</a>
+                        </li>
+                        <li>
+                            <a href="#aboutSection">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#programsSection">Programs</a>
+                        </li>
+                        <li>
+                            <a href="#educationSection">Education</a>
+                        </li>
+                        <li>
+                            <a href="#gallerySection">Gallery</a>
+                        </li>
+                        <li>
+                        <a href="{{url('donate')}}">Donate</a>
+                        </li>
+                       
+                        <li>
+                            <a href="{{url('signin')}}">Signin</a>
+                        </li>
+                        <li>
+                        <a href="{{url('register')}}">Join Us</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- header end here -->
+        
+        <div class="container">
+            <h1>Together We Can <span>Save Lives</span></h1>
+            <p>
+                Giving is not just about making a donation. It is about making a difference.
+                Your regular donation can help to make sure the most vulnerable families to
+                have access to basic necessities to spend the happy life.
+            </p>
+            <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+        </div>
+    </div>
+    <!-- homeSection end here -->
+
+    <section class="fullcontainer" id="aboutSection">
+        <div class="container">
+            <h2 class="sectionTitle">About Us</h2>
+            <p>
+                DTS being non-political, non-governmental and non-profit organization is committed to serving
+                humanity especially vulnerable Families and orphans without any kind of discrimination to contribute in their well-being of health,
+                education, financial sustainability, livelihood, availability of clean water, mosques, savage of disaster and other aspects of life.
+                We also pay attention to the the welfare of our employees by means of resource mobilization and developing partnership with NGOs and other concerned as well
+                public and private organisationsn. Our volunteers remain satisfied by providing their support and engaging in different
+                useful programs and doing all such acts that are required to achieve our goal to help others with integrity.
+            </p>
+
+            <div class="cards">
+                <div class="moneyBox">
+                    <div class="title">Money</div>
+                    <p>
+                        You can donate money for poor people, So that they can eat pure food and can live a better life.
+                    </p>
+                    <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+                </div>
+                <!-- Money Box end here -->
+
+                <div class="clothesBox">
+                    <div class="title">Clothes</div>
+                    <p>
+                        You can donate your clothes for the people and uniforms for students who can not afford to wear clothes.
+                    </p>
+                    <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+                </div>
+                <!-- Clothes Box end here -->
+
+                <div class="booksBox">
+                    <div class="title">Books</div>
+                    <p>
+                        We provide education facilities to children all over Pakistan. You can donate books for needy people.
+                    </p>
+                    <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+                </div>
+                <!-- Books Box end here -->
+
+            </div>
+        </div>
+    </section>
+    <!-- aboutSection end here -->
+
+    <section class="programs" id="programsSection">
+        <div class="container">
+            <h2 class="sectionTitle">Programs</h2>
+
+            <div class="boxContainer">
+                <div class="box">
+                    <div class="cardImage"></div>
+                    <div class="programTitle">Education to Every Child</div>
+                    <div class="donationCount">
+                        Donation Goal : <span>$9845</span>
+                    </div>
+                    <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+                </div>
+                <!-- box end here -->
+
+                <div class="box">
+                    <div class="cardImage"></div>
+                    <div class="programTitle">Make Life Easier For Them</div>
+                    <div class="donationCount">
+                        Donation Goal : <span>$9845</span>
+                    </div>
+                    <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+                </div>
+                <!-- box end here -->
+
+                <div class="box">
+                    <div class="cardImage"></div>
+                    <div class="programTitle">Dedicating To Helping Kids</div>
+                    <div class="donationCount">
+                        Donation Goal : <span>$9845</span>
+                    </div>
+                    <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+                </div>
+                <!-- box end here -->
+
+                <div class="box">
+                    <div class="cardImage"></div>
+                    <div class="programTitle">Clean Water For People</div>
+                    <div class="donationCount">
+                        Donation Goal : <span>$9845</span>
+                    </div>
+                    <a href="{{url('donate')}}"><button type="submit">Donate Now</button></a>
+                </div>
+                <!-- box end here -->
+
+            </div>
+            <!-- boxContainer end here -->
+
+        </div>
+    </section>
+    <!-- programsSection end here -->
+
+    <section class="education" id="educationSection">
+        <video autoplay muted loop class="videoPlayer">
+            <source src="video/childrens.mp4" type="video/mp4" />
+            Your browser does not support HTML5
+        </video>
+        <div class="container">
+            <div class="sectionTitle">Education</div>
+            <div class="educationContainer">
+                <h3>
+                    Education Is Essential For <br>
+                    <strong>Better Future</strong>
+                </h3>
+                <p>
+                    Education is one of the basic necessities of life. It is directly related to learning and our overall development. Education has a very wide meaning;
+                    it not only educates you in your classroom but also encourages you to learn from your environment.
+                    The poor could also find jobs, good positions in society and fight the ailments that poverty always posed him with.
+                </p>
+                <button>EXPLORE NOW</button>
+            </div>
+        </div>
+    </section>
+    <!-- educationSection end here -->
+
+    <section class="gallery" id="gallerySection">
+        <div class="container">
+            <div class="sectionTitle">Gallery</div>
+            <div class="galleryContainer">
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/1.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/2.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/3.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/4.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/5.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/6.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/7.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+                <div class="item">
+                    <span class="title">Image Title</span>
+                    <img src="images/gallery/8.jpg" alt="" />
+                </div>
+                <!-- .item -->
+
+            </div>
+        </div>
+    </section>
+    <!-- gallerySection end here -->
+
+    <section class="join" id="joinSection">
+        <div class="container">
+            <div class="joinTitle">
+                GIVE DONATIONS & <span>SAVE LIVES</span>
+            </div>
+            <p>
+                When you choose to give, you may not realize that donating to charity will do more than just help your favourite cause,
+                giving can also provide you with many personal benefits. Whether you choose to donate to charities supporting people living in poverty.
+                Life is busy, and it can sometimes be easy to forget to show your gratitude for all that you’ve been given.
+                Helping others feels good. When you donate to a charity that is important to you,
+                you not only help them continue their vital work,
+                you’re also improving your emotional wellbeing, a win-win situation!
+            </p>
+            <button class="joinbtn">JOIN US</button>
+            <a href="{{url('donate')}}"><button class="donatebtn">DONATE NOW</button></a>
+          
+        </div>
+    </section>
+    <!-- joinSection end here -->
+
+    <footer>
+        <div class="container">
+            <div class="newsLetterContainer">
+                <img src="images/logo.png" alt="Foundation Fantasy Logo">
+                <p>
+                    DTS cares for needy people by empowering their caregivers to do their best work, with compassion, grace, integrity and excellence.
+                    Our end goal is to support people all over country and see every child reach the potential that God has for them.
+                </p>
+                <input type="text" placeholder="Enter Your Email" />
+            </div>
+            <!-- newsLetterContainer -->
+
+            <div class="linksContainer">
+                <div class="title">USEFUL LINKS</div>
+                <ul>
+                    <li>
+                        <a href="#homeSection">Home</a>
+                    </li>
+                    <li>
+                    <a href="{{url('register')}}">Signup</a>
+                    </li>
+                    <li>
+                    <a href="{{url('signin')}}">Login</a>
+                    </li>
+                    <li>
+                    <a href="{{url('donate')}}">Donate Money</a>
+                    </li>
+                    <li>
+                    <a href="{{url('donate')}}">Donate Items</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- linksContainer -->
+
+            <div class="connectContainer">
+                <div class="title">Contact Us</div>
+                <p>
+                    University of Sargodha<br />
+                    Sargodha
+                </p>
+                <p>RSS Developer</p>
+                <p>Developer@gmail.com </p>
+                <p>+923176852195</p>
+            </div>
+            <!-- connectContainer -->
+
+        </div>
+    </footer>
+</body>
+</html>
